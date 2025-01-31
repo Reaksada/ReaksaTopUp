@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple webpage.</p>
+
+    <!-- Header (Top Bar) -->
+    <header class="header">
+        <div class="logo">Reaksa Top Up</div>
+        <input type="text" class="search-bar" placeholder="Search">
+        <div class="profile-icon"></div>
+    </header>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <a href="#"><i class="fas fa-home"></i> Mobile Legends Bang Bang</a>
+        <a href="#"><i class="fas fa-fire"></i> FreeFire</a>
+        <a href="#"><i class="fas fa-video"></i> PUBG Mobile</a>
+    </nav>
+
+    <!-- Main Content (Video Grid) -->
+    <main class="main-content">
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x180" alt="Video Thumbnail">
+            <div class="video-info">
+                <img src="https://via.placeholder.com/40" alt="Channel Logo">
+                <div class="video-details">
+                    <h3>Sample Video Title</h3>
+                    <p>Channel Name • 1.2M views • 3 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x180" alt="Video Thumbnail">
+            <div class="video-info">
+                <img src="https://via.placeholder.com/40" alt="Channel Logo">
+                <div class="video-details">
+                    <h3>Another Video Title</h3>
+                    <p>Channel Name • 900K views • 1 week ago</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
 </body>
 </html>
