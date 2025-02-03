@@ -3,38 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entertainment Platform</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>
-        function toggleMenu() {
-            document.querySelector(".nav").classList.toggle("active");
-        }
-    </script>
+    <title>Reaksa Top Up</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-
-    <!-- Header -->
-    <header class="header">
-        <div class="logo">Your Logo</div>
-        <div class="menu-icon" onclick="toggleMenu()">☰</div>
-        <nav class="nav">
-            <a href="#">Home</a>
-            <a href="#">Games</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
+    <!-- Header Section -->
+    <header>
+        <h1>
+            <nav>
+              <a href="#home">Home</a>
+              <a href="#services">Services</a>
+              <a href="#about">About Us</a>
+              <a href="#contact">Contact</a>
+            </nav>
+        </h1>
+        <h2>
+            <img src="banner.jpg">
+        </h2>
+        
     </header>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <h1>Welcome to Our Entertainment Platform</h1>
-        <p>Enjoy our latest games, videos, and more!</p>
-    </main>
+    <!-- Navigation Bar -->
+    
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    <!-- Main Content Section -->
+    <div class="container">
+        <section id="home">
+            <h2>
+                Select Game To top Up
+            </h2>
+            <img src="mlbb.png" width="100" height="100">
+            <img src="freefire.jpg" width="100" height="100">
+            <img src="pubg.jpg" width="100" height="100">
+            
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer top-up services for a wide range of platforms, including:</p>
+            <ul>
+                <li>Mobile Games</li>
+                <li>Streaming Services</li>
+                <li>Social Media Platforms</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Reaksa Top Up is a trusted provider of digital top-up services. We aim to make your gaming and digital experience seamless and enjoyable.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us at <a href="https://t.me/dareaksa">Telegram</a>.</p>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Sabay Top-Up. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
